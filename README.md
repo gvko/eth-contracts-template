@@ -8,8 +8,9 @@ contact(s).
 
 ### Set up env vars
 
-Create a `.env` file in the root of the repo, copy the contents of `.env.example` and replace the values surrounded
-by `< >` with actual values (eg. the `<KEY>` values).
+Create the `.env` file in the root of the repo, copy the contents of `.env.example` and update accordingly. Some things mandatory to update:
+* get the URL for your node provider (eg. Infura, Alchemy) and update it in the file
+* replace the values surrounded by `< >` with actual values (eg. the `<KEY>` values)
 
 ### Compile the Solidity contracts locally
 
