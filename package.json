@@ -1,0 +1,34 @@
+{
+  "name": "eth-contracts-template",
+  "version": "0.0.1",
+  "description": "Smart contracts boilerplate repo for EVM-based chains",
+  "main": "index.js",
+  "homepage": "https://github.com/gvko/eth-contracts-template#readme",
+  "author": "Galin Kostov (dev@galin.cc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gvko/eth-contracts-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvko/eth-contracts-template.git"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy-eth": "npx hardhat --network goerli run scripts/deploy.js",
+    "deploy-polygon": "npx hardhat --network mumbai run scripts/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.1",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@types/node": "^18.7.15",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.10.2",
+    "ts-node": "^10.9.1"
+  }
+}
