@@ -43,6 +43,8 @@ contract to that network.
 And also the `.env` config for the node we're gonna use to connect to the network. For example, if we use Alchemy as
 provider, we are gonna need the `API_URL` for the given network.
 
+Currently there's no configs for the mainnet Ethereum and Polygon networks.
+
 ### Mint an NFT
 
 The repo contains a template contract for minting NFT, based on the ERC721 standard. Therefore, there is also included
