@@ -15,8 +15,10 @@
   },
   "scripts": {
     "compile": "npx hardhat compile",
-    "deploy-eth": "npx hardhat --network goerli run scripts/deploy.js",
-    "deploy-polygon": "npx hardhat --network mumbai run scripts/deploy.js",
+    "deploy-eth": "npx hardhat --network mainnet run scripts/deploy.js",
+    "deploy-polygon": "npx hardhat --network polygon run scripts/deploy.js",
+    "deploy-test-eth": "npx hardhat --network goerli run scripts/deploy.js",
+    "deploy-test-polygon": "npx hardhat --network mumbai run scripts/deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

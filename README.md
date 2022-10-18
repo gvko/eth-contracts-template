@@ -20,10 +20,16 @@ npx hardhat compile
 ### Deploy the contract to a given network
 
 ```shell
+// testnet ethereum (goerli)
+npm run deploy-test-eth
+
+// testnet polygon (mumbai)
+npm run deploy-test-polygon
+
+// mainnet ethereum
 npm run deploy-eth
 
-// or
-
+// mainnet polygon
 npm run deploy-polygon
 
 // or more manual/custom way:
