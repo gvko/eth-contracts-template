@@ -6,6 +6,11 @@ contact(s).
 
 ## Getting started
 
+### Set up env vars
+
+Create a `.env` file in the root of the repo, copy the contents of `.env.example` and replace the values surrounded
+by `< >` with actual values (eg. the `<KEY>` values).
+
 ### Compile the Solidity contracts locally
 
 ```
